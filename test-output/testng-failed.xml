@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERP Careers Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="ERP Careers Test Cases(failed)">
+    <classes>
+      <class name="com.careers.qa.testcases.HomePageTest">
+        <methods>
+          <include name="HomefnTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.careers.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- ERP Careers Test Cases(failed) -->
+</suite> <!-- Failed suite [ERP Careers Test Automation Test Suite] -->
