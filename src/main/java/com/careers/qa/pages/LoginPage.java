@@ -23,6 +23,7 @@ public class LoginPage extends TestBase
 			@FindBy(xpath="//button[normalize-space()='Continue']")
 			WebElement loginBtn;
 			
+			
 	//Initializing the Page Objects using constructor:
 			public LoginPage()
 			{
@@ -31,7 +32,8 @@ public class LoginPage extends TestBase
 			
 			public HomePage login(String un, String pwd) throws InterruptedException
 			{
-				Thread.sleep(3000);
+				System.out.println("HIIIIII");
+                Thread.sleep(3000);
 				applyBtn.click();
 				username.sendKeys(un);
 				password.sendKeys(pwd);
