@@ -21,6 +21,8 @@ public class HomePage  extends TestBase
 		Thread.sleep(3000);
 		applyBtnHome.click();
 		Thread.sleep(3000);
+		Thread.sleep(3000);
 		return new JobDetails();
+
 	}
 }
